@@ -1,0 +1,44 @@
+#skill-content {
+	padding-top: 15px;
+	height: 250px;
+	overflow-y: scroll;
+}
+
+.skill-item:hover {
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+.skill-item-selected {
+	font-weight: bolder;
+}
+
+.selected-tag {
+    color: #333;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 26px;
+    margin: 4px 1px 0 3px;
+    padding: 0 .30em;
+    float: left;
+    line-height: 1.7em;
+    margin-bottom: 10px;
+}
+
+.selected-tag:hover {
+	background-color: #ffffff;
+	cursor: pointer;
+}
+
+.selected-tag-active {
+	color: #fff;    
+	background-color: #83c99f !important;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 26px;
+    margin: 4px 1px 0 3px;
+    padding: 0 .30em;   
+    line-height: 1.7em;
+    margin-bottom: 15px;
+}

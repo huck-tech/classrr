@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>Classrr</ShortName>
+    <LongName>Classrr - Classroom Learning Marketplace</LongName>
+    <Description>Classrr is a global education community marketplace</Description>
+	<Tags>classrr class search</Tags>
+	<Image height="16" width="16" type="image/vnd.microsoft.icon">https://www.classrr.com/img/favicon.ico</Image>
+    <Url type="text/html" template="https://www.classrr.com/classroom/list?q={searchTerms}&amp;utm_source=opensearch"/>
+</OpenSearchDescription>

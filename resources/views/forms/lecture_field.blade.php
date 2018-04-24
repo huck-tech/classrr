@@ -1,0 +1,19 @@
+<div class="clearfix">
+    <input type="hidden"
+           class="input order"
+           data-name="lecture[{lecture_id}][order]"
+           value="{{ $lecture['order'] or '' }}">
+    <input type="text"
+           data-name="lecture[{lecture_id}][title]"
+           class="input lecture-name form-control"
+           placeholder="Lecture title"
+           value="{{ $lecture['title'] or '' }}">
+    <input type="text"
+           data-name="lecture[{lecture_id}][duration]"           
+           class="input lecture-duration form-control"
+           placeholder="Duration (mins)"
+           value="{{ $lecture['duration'] or '' }}">
+</div>
+<textarea data-name="lecture[{lecture_id}][description]"
+          class="input lecture-desc form-control"
+          placeholder="What is this lecture about?">{{ $lecture['description'] or '' }}</textarea>

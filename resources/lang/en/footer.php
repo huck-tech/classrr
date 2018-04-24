@@ -1,0 +1,28 @@
+<?php
+
+return [
+	'about_title'         => 'About Classrr',
+	'about_description1'  => 'Classrr is a website that enables anyone to publish their local classes, online. Our goal is to provide our teachers the ease of getting their classes booked online, manage their teaching schedules and supporting their good causes. We\'ve worked hard to build this website and we hope you like it. Everything is completely free, because we believe that nobody should have to pay for Classrr unless they are making money themselves.',
+	'about_description2'  => 'Classroom learning requires teacher to have access to a conducive learning location. Each classroom session has maximum capacity of 6 students and schedule is arranged automatically to run for duration of 1-year. Teachers will have control over their classrooms & schedules in Classrr. Students can find teacher in any location they desire to learn. Payment is secured until the class sessions are fulfilled.',
+	'help'                => 'Need Help?',
+	'learn_more'          => 'Learn More',
+	'about_us'            => 'About Us',
+	'community'           => 'Community',
+	'blog'                => 'Blog',
+	'help_support'        => 'Help & Support',
+	'diversity_belonging' => 'Diversity & Belonging',
+	'contact'             => 'Contact',
+	'terms'               => 'Terms of Use',
+	'privacy'             => 'Privacy Policy',
+	'discover'            => 'Discover',
+	'browse_classes'      => 'Browse Classes',
+	'partners'            => 'Partners',
+	'press'               => 'Press',
+	'story'               => 'Story',
+	'learning_credit'     => 'Learning Credit',
+	'global_movement'     => 'Global Movement',
+	'testimonials'        => 'Testimonials',
+	'trust_safety'        => 'Trust & Safety',
+	'settings'			  => 'Settings',
+	'copyright'           => 'All Rights reserved',
+];

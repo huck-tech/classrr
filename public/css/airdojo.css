@@ -1,0 +1,585 @@
+/* New styles */
+.btn-link {
+    color: #51bce6;
+}
+.dd-options {
+    max-height: 200px !important;
+}
+.error-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #a94442;
+    font-weight: bold;
+}
+.progress-small {
+    height: 10px;
+}
+.js-files .thumbnail .thumbnail-name {
+    width: 128px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.js-files .thumbnail .error {
+    width: 128px;
+    color: darkred;
+    font-weight: bold;
+    display: none;
+}
+.js-files .thumbnail {
+    margin-right: 20px;
+    position: relative;
+}
+.js-files .delete {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/cancel.png);
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+}
+.js-files .thumbnail:hover .delete {
+    display: block !important;
+}
+.js-link {
+    border-bottom: 1px dotted ;
+}
+.how_it_works_home .icon {
+    margin: auto;
+    margin-bottom: 20px;
+    display: block;
+    width: 120px;
+    height: 120px;
+    line-height: 110px;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px dashed #ccc;
+    font-size: 62px;
+    color: #6dcff6;
+}
+.how_it_works_home .item {
+    position: relative;
+}
+.how_it_works_home .item .line-arrow {
+    top: 70px;
+    right: 0px;
+    position: absolute;
+
+}
+.line-arrow {
+    position: absolute;
+    overflow: hidden;
+    display: inline-block;
+    font-size: 12px; /*set the size for arrow*/
+    width: 30px;
+    height: 30px;
+    margin-top: -2em;
+    top: 50%;
+}
+
+.line-arrow.left {
+    border-top: 1px solid #a9a9a9;
+    border-left: 1px solid #a9a9a9;
+    transform: rotate(-54deg) skew(-20deg);
+    left: 20px;
+}
+
+.line-arrow.right {
+    border-top: 1px solid #a9a9a9;
+    border-right: 1px solid #a9a9a9;
+    transform: rotate(54deg) skew(20deg);
+    right: 20px;
+}
+
+.line-arrow:active,
+.line-arrow.active {
+    border-width: 2px;
+}
+
+.square {
+    top: auto;
+    bottom: 10px;
+}
+
+.square.left {
+    transform: rotate(-45deg);
+}
+
+.square.right {
+    transform: rotate(45deg);
+}
+.text-notice {
+    height: 40px;
+    line-height: 40px;
+}
+.classroom_form {
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#scheduler .weekday {
+    padding: 0 10px;
+}
+#scheduler, #scheduler td {
+    text-align: center;
+    text-transform: capitalize;
+    border: 1px solid #fff;
+}
+
+#scheduler-mobile, #scheduler-mobile td {
+    text-align: center;
+    text-transform: capitalize;
+    border: 1px solid #fff;
+}
+.hour-check {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    background-color: #e2e2e2;
+}
+.schedule-legend {
+    list-style: none;
+    padding: 0 0  0 10px;
+    margin: 0;
+    line-height: 20px;
+}
+.study_plan .schedule-legend{
+    padding: 0;
+}
+.schedule-legend li {
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.schedule-legend .legend-box  {
+    float: left;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 5px;
+}
+.schedule-legend .label {
+    margin-right: 10px;
+}
+.schedule-legend .item {
+    margin-right: 10px;
+    border-bottom: 1px dotted #ddd;
+}
+.morning {
+    background-color: #ddfffc;
+}
+.afternoon {
+    background-color: #f1ffb1;
+}
+.evening {
+    background-color: #ffc390;
+}
+#scheduler-mobile  {
+    width: 100%;
+}
+#scheduler-mobile  .hour {
+    padding: 0 5px;
+    width: 12.5%;
+}
+#scheduler-mobile .hour-check {
+    height: 40px;
+    width: 12.5%;
+}
+.hour-check.active {
+    background: #E04F67;
+}
+.hour-check input {
+    visibility: hidden;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    top:0;
+    left:0;
+    z-index:9999;
+
+}
+.class-list .class-heading {
+    margin-top: 5px;
+}
+.class-list .class-item {
+    margin-bottom: 40px;
+}
+.class-list .ctrl {
+    width: 60px;
+}
+
+.dashboard-payout {
+    margin-bottom: 30px;
+}
+.dashboard-payout h5 {
+    margin-top: 0;
+}
+.dashboard-payout p {
+    font-weight: bold;
+    font-size: 24px;
+}
+.dashboard-payout sup {
+    font-size: 14px;
+}
+.dashboard-payout .item {
+    border-right: 1px solid #eee;
+}
+.dashboard-payout .item:last-child {
+    border-right: none;
+}
+.dashboard-buttons .btn {
+    margin-right: 10px;
+}
+.dashboard-panel h3 {
+    margin-top:0;
+    margin-bottom: 30px;
+}
+#search-bar-2 {
+    padding-left: 40px;
+}
+.search-bar-item {
+    float: left;
+    text-align: left;
+    margin-right: 2px;
+    font-size: 12px;
+    text-transform: none;
+}
+.search-bar-item .search-text {
+    border: none;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px 0 10px;
+    color: #0b0b0b;
+}
+#search-term {
+    width: 320px;
+}
+#search-button {
+    height: 40px;
+    line-height: 40px;
+    width: 120px;
+    padding: 0 20px 0 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    background: #6CCEF5;
+    font-size: 14px;
+    border-radius: 0;
+}
+#duration-select, #when-select, #students-select{
+    width: 120px;
+}
+#search-where {
+
+}
+@media (min-width: 1200px) {
+    #search-bar-2 {
+        padding-left: 60px;
+    }
+    #duration-select, #when-select, #students-select {
+        width: 160px;
+    }
+    #search-where {
+        width: 240px;
+    }
+}
+
+#search-bar-2 .dd-options {
+    border: 1px solid #ccc;
+    border-radius: 0px;
+}
+#search-bar-2 .dd-select {
+    line-height: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 0px !important;
+}
+
+
+#hero #search {
+    text-transform: none;
+    text-align: left;
+}
+.form-group .small-text{
+    color: #888;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#classroom_rules_container input, #classroom_curriculum_container input {
+    margin-bottom: 10px
+}
+.upload-drop-zone {
+    color: #ccc;
+    border-style: dashed;
+    border-color: #ccc;
+    line-height: 200px;
+    text-align: center;
+}
+.upload-drop-zone {
+    height: 200px;
+    border-width: 2px;
+    margin-bottom: 20px;
+}
+.upload-drop-zone.dnd-hover {
+    background-color: #1ABC9C;
+}
+#classroom_rules_container .item {
+    position: relative;
+}
+#classroom_rules_container .delete_rule {
+    font-size: 16px;
+    color: #7d797a;
+    position: absolute;
+    right: -23px;
+    top: 11px;
+}
+
+.curriculum-list .lecture-name {
+    float: left;
+    width: 68%;
+}
+.curriculum-list .lecture-duration {
+    float: right;
+    width: 30%;
+}
+
+.curriculum-list .lecture-desc {
+    height: 100px;
+}
+.lecture_ctrls {
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+.draglecture {
+    cursor: move;
+    margin-bottom: 7px;
+}
+.dnd-icon {
+    margin-right: -7px ;
+}
+.dnd-icon i:last-child {
+    margin-left: -11px;
+}
+.toggle-switch {
+    color: black !important;
+}
+.toggle-switch .icon-angle-circled-down {
+    display: none;
+}
+.toggle-switch .icon-angle-circled-up {
+    display: inline-block;
+}
+.toggle-switch.collapsed .icon-angle-circled-down {
+    display: inline-block;
+}
+.toggle-switch.collapsed  .icon-angle-circled-up {
+    display: none;
+}
+#review_classroom .g-recaptcha {
+    transform:scale(0.9);-webkit-transform:scale(0.91);transform-origin:0 0;-webkit-transform-origin:0 0;
+}
+
+.schedule-legend .label {
+    width: 30px;
+    display: inline-block;
+}
+.study_plan h4 {
+    text-transform: capitalize !important;
+    font-size: 14px;
+}
+.flexible-block, .fixed-block {
+    opacity: 0.2;
+}
+.pricing-flexible .flexible-block{
+    opacity: 1;
+}
+.pricing-fixed .fixed-block {
+    opacity: 1;
+}
+.ap-input, .ap-hint, .ap-dropdown-menu {
+    border-radius: 0;
+}
+.ap-dropdown-menu {
+    color: black;
+}
+#search-results {
+    position: relative;
+}
+#search-results.loading::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #000000;
+    opacity: .3;
+}
+#search-results.loading .spinner {
+    display: block;
+}
+.spinner {
+    display: none;
+    position: absolute;
+    z-index: 99999;
+    top: 50px;
+    left: 50%;
+    opacity: 1;
+    margin-left: -14px; /* = 28px / 2 */
+    height: 28px;
+    width: 28px;
+    animation: rotate 0.8s infinite linear;
+    border: 8px solid #fff;
+    border-right-color: transparent;
+    border-radius: 50%;
+}
+
+@keyframes rotate {
+    0%    { transform: rotate(0deg); }
+    100%  { transform: rotate(360deg); }
+}
+.avatar-sm {
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.avatar-profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 767px) {
+	.avatar-profile {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.25);
+	}
+}
+
+.no-border {
+    border: 0;
+}
+.content section.content-single {
+    display: block;
+    border-top: 1px solid #e2e2e2;
+}
+.teacher-bage:after {
+    clear: both;
+}
+.teacher-bage img {
+    float:left;
+    margin-right: 15px;
+}
+.teacher-bage-name {
+    float: left;
+}
+.tour_list_desc p {
+    margin-bottom: 10px;
+}
+.strip_all_tour_list .item-details {
+    margin-top: 20px;
+}
+.item-details .item-price sup {
+    font-size: 22px;
+
+}
+.item-details .item-price-notice {
+    font-size: 11px;
+    color: #999;
+    display: block;
+    line-height: 12px;
+    margin-bottom: 10px;
+}
+.item-details .item-price {
+    display: block;
+    margin-bottom: 10px;
+    color: #e74c3c;
+    font-size: 38px;
+}
+.item-details .btn_1 {
+    margin-bottom: 10px;
+}
+.item-details .item-property {
+    margin-bottom: 5px;
+}
+.student-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.student-list li {
+    margin-bottom: 5px;
+}
+.student-list .book-id {
+    font-size: 10px;
+}
+.studyplan-tabs h3, .studyplan-tabs h2, .studyplan-tabs h4 {
+    margin: 0 0 5px 0;
+    color: #333;
+}
+.studyplan-tabs .row {
+    margin-bottom: 15px;
+}
+.schedule-legend {
+    margin-bottom: 15px;
+}
+.booking-legend-1 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.booking-legend-1 li {
+    display: inline-block;
+    margin: 0 5px 0 0 ;
+    padding: 0 5px;
+    border: 1px solid #eee;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius: 2px;
+}
+.booking-map {
+    height: 300px;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

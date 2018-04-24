@@ -1,0 +1,28 @@
+<?php
+
+return [
+	'about_title'         => 'Tentang Classrr',
+	'about_description1'  => 'Classrr adalah situs yang memudahkan siapa saja mengajar dimana saja. Tujuan kami adalah menyediakan kemudahan bagi guru-guru mendapatkan siswa untuk kelas mereka, mengurus jadwal mereka dan membantu niat baik mereka. Kami telah berusaha keras membangun situs ini dan berharap anda menyukainya. Semuanya gratis, karena kami percaya bahwa tidak ada yg perlu membayar kecuali mereka juga mendapatkan bayaran.',
+	'about_description2'  => 'Kegiatan belajar mengajar memerlukan ruang kelas yang mendukung. Setiap sesi belajar mengajar dalam ruang kelas dapat menampung sampai 6 siswa dan jadwal kelas secara otomatis berjalan selama satu tahun. Guru memiliki kontrol penuh terhadap ruang kelas dan jadwal mereka di Classrr. Siswa dapat menemukan guru di lokasi manapun. Pembayaran diamankan sampai sesi belajar mengajar selesai.',
+	'help'                => 'Perlu Bantuan?',
+	'learn_more'          => 'Pelajari Lebih Lanjut',
+	'about_us'            => 'Tentang Kami',
+	'community'           => 'Komunitas',
+	'blog'                => 'Blog',
+	'help_support'        => 'Bantuan &amp; Dukungan',
+	'diversity_belonging' => 'Keragaman &amp; Rasa Memiliki',
+	'contact'             => 'Hubungi',
+	'terms'               => 'Syarat Penggunaan',
+	'privacy'             => 'Kebijakan Privasi',
+	'discover'            => 'Jelajahi',
+	'browse_classes'      => 'Semua Kelas',
+	'partners'            => 'Partner',
+	'press'               => 'Pers',
+	'story'               => 'Cerita',
+	'learning_credit'     => 'Kredit Belajar',
+	'global_movement'     => 'Gerakan Global',
+	'testimonials'        => 'Testimonial',
+	'trust_safety'        => 'Kepercayaan & Keamanan',
+	'settings'			  => 'Pengaturan',
+	'copyright'           => 'Seluruh Hak Cipta',
+];

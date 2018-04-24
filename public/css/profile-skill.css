@@ -1,0 +1,9 @@
+.skill-box {
+	height: 350px;
+	overflow-y: scroll;
+}
+
+.inner-box-skill {
+	height: 175px !important;
+	border: 1px solid #333333 !important;
+}
